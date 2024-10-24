@@ -1,0 +1,1858 @@
+[
+  {
+    "bomba": {
+      "id": 136,
+      "id_FCA": 4,
+      "modelo": "SDLP 6",
+      "vazao": 28.5,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 4,
+      "id_FCA": 4,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 4,
+      "nome": "84",
+      "Cod": 14,
+      "comprimento_feixe": 3.475,
+      "areas_transversais": 2.852,
+      "largura": 950.0,
+      "comprimento": 3800.0,
+      "altura": 2250.0,
+      "area_livre_ventilador": 0.1955,
+      "velocidade_periferica": 48.56,
+      "MOD_FCA": "8",
+      "N_feixes": 1.0,
+      "N_tub_hor": 12.0
+    },
+    "ventiladores": {
+      "id": 4,
+      "id_FCA": 4,
+      "modelo": "VAP - 530 / 5 / 40",
+      "diametro": 530.0,
+      "potencia_do_motor": 1.5,
+      "RPM_ventilador": 1750.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 137,
+      "id_FCA": 5,
+      "modelo": "DB - 3",
+      "vazao": 9.7,
+      "potencia": 0.75,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 5,
+      "id_FCA": 5,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 5,
+      "nome": "121",
+      "Cod": 21,
+      "comprimento_feixe": 0.655,
+      "areas_transversais": 0.964,
+      "largura": 1360.0,
+      "comprimento": 950.0,
+      "altura": 2365.0,
+      "area_livre_ventilador": 0.2767,
+      "velocidade_periferica": 56.81,
+      "MOD_FCA": "12",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 5,
+      "id_FCA": 5,
+      "modelo": "VAP - 620 /5 / 35",
+      "diametro": 620.0,
+      "potencia_do_motor": 2.0,
+      "RPM_ventilador": 1750.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 138,
+      "id_FCA": 6,
+      "modelo": "SDLP 6",
+      "vazao": 21.1,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 6,
+      "id_FCA": 6,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 6,
+      "nome": "122",
+      "Cod": 22,
+      "comprimento_feixe": 1.595,
+      "areas_transversais": 2.111,
+      "largura": 1360.0,
+      "comprimento": 1900.0,
+      "altura": 2365.0,
+      "area_livre_ventilador": 0.2767,
+      "velocidade_periferica": 56.81,
+      "MOD_FCA": "12",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 6,
+      "id_FCA": 6,
+      "modelo": "VAP - 620 /5 / 35",
+      "diametro": 620.0,
+      "potencia_do_motor": 2.0,
+      "RPM_ventilador": 1750.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 139,
+      "id_FCA": 7,
+      "modelo": "SDLP 6",
+      "vazao": 32.6,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 7,
+      "id_FCA": 7,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 7,
+      "nome": "123",
+      "Cod": 23,
+      "comprimento_feixe": 2.535,
+      "areas_transversais": 3.257,
+      "largura": 1360.0,
+      "comprimento": 2850.0,
+      "altura": 2365.0,
+      "area_livre_ventilador": 0.2767,
+      "velocidade_periferica": 56.81,
+      "MOD_FCA": "12",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 7,
+      "id_FCA": 7,
+      "modelo": "VAP - 620 /5 / 35",
+      "diametro": 620.0,
+      "potencia_do_motor": 2.0,
+      "RPM_ventilador": 1750.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 140,
+      "id_FCA": 8,
+      "modelo": "DLP - 7",
+      "vazao": 44.0,
+      "potencia": 3.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 8,
+      "id_FCA": 8,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 8,
+      "nome": "124",
+      "Cod": 24,
+      "comprimento_feixe": 3.475,
+      "areas_transversais": 4.404,
+      "largura": 1360.0,
+      "comprimento": 3800.0,
+      "altura": 2365.0,
+      "area_livre_ventilador": 0.2767,
+      "velocidade_periferica": 56.81,
+      "MOD_FCA": "12",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 8,
+      "id_FCA": 8,
+      "modelo": "VAP - 620 /5 / 35",
+      "diametro": 620.0,
+      "potencia_do_motor": 2.0,
+      "RPM_ventilador": 1750.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 141,
+      "id_FCA": 9,
+      "modelo": "DC - 3",
+      "vazao": 14.7,
+      "potencia": 0.75,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 9,
+      "id_FCA": 9,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 9,
+      "nome": "161",
+      "Cod": 31,
+      "comprimento_feixe": 1.065,
+      "areas_transversais": 1.464,
+      "largura": 1360.0,
+      "comprimento": 1360.0,
+      "altura": 2580.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "16",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 9,
+      "id_FCA": 9,
+      "modelo": "VAP - 790 /6/40",
+      "diametro": 790.0,
+      "potencia_do_motor": 3.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 142,
+      "id_FCA": 10,
+      "modelo": "SDLP - 6",
+      "vazao": 31.1,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 10,
+      "id_FCA": 10,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 10,
+      "nome": "162",
+      "Cod": 32,
+      "comprimento_feixe": 2.415,
+      "areas_transversais": 3.111,
+      "largura": 1360.0,
+      "comprimento": 2720.0,
+      "altura": 2580.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "16",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 10,
+      "id_FCA": 10,
+      "modelo": "VAP - 790 /6/40",
+      "diametro": 790.0,
+      "potencia_do_motor": 3.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 143,
+      "id_FCA": 11,
+      "modelo": "DJ - 7X",
+      "vazao": 47.6,
+      "potencia": 4.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 11,
+      "id_FCA": 11,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 11,
+      "nome": "163",
+      "Cod": 33,
+      "comprimento_feixe": 3.765,
+      "areas_transversais": 4758.0,
+      "largura": 1360.0,
+      "comprimento": 4080.0,
+      "altura": 2580.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "16",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 11,
+      "id_FCA": 11,
+      "modelo": "VAP - 790 /6/40",
+      "diametro": 790.0,
+      "potencia_do_motor": 3.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 144,
+      "id_FCA": 12,
+      "modelo": "SDJ - 7X",
+      "vazao": 64.0,
+      "potencia": 4.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 12,
+      "id_FCA": 12,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 12,
+      "nome": "164",
+      "Cod": 34,
+      "comprimento_feixe": 5.115,
+      "areas_transversais": 6405.0,
+      "largura": 1360.0,
+      "comprimento": 5440.0,
+      "altura": 2580.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "16",
+      "N_feixes": 2.0,
+      "N_tub_hor": 18.0
+    },
+    "ventiladores": {
+      "id": 12,
+      "id_FCA": 12,
+      "modelo": "VAP - 790 /6/40",
+      "diametro": 790.0,
+      "potencia_do_motor": 3.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 145,
+      "id_FCA": 13,
+      "modelo": "SDLP - 6",
+      "vazao": 19.0,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 13,
+      "id_FCA": 13,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 13,
+      "nome": "201",
+      "Cod": 41,
+      "comprimento_feixe": 1.065,
+      "areas_transversais": 1896.0,
+      "largura": 1210.0,
+      "comprimento": 1650.0,
+      "altura": 2350.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "20",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 13,
+      "id_FCA": 13,
+      "modelo": "VAP - 790 /12/35",
+      "diametro": 790.0,
+      "potencia_do_motor": 4.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 146,
+      "id_FCA": 14,
+      "modelo": "DLP - 7",
+      "vazao": 40.3,
+      "potencia": 3.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 14,
+      "id_FCA": 14,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 14,
+      "nome": "202",
+      "Cod": 42,
+      "comprimento_feixe": 2.415,
+      "areas_transversais": 4029.0,
+      "largura": 1210.0,
+      "comprimento": 3400.0,
+      "altura": 2350.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "20",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 14,
+      "id_FCA": 14,
+      "modelo": "VAP - 790 /12/35",
+      "diametro": 790.0,
+      "potencia_do_motor": 4.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+
+  {
+    "bomba": {
+      "id": 147,
+      "id_FCA": 15,
+      "modelo": "SDJ - 7X",
+      "vazao": 61.6,
+      "potencia": 4.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 15,
+      "id_FCA": 15,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 15,
+      "nome": "203",
+      "Cod": 43,
+      "comprimento_feixe": 3.765,
+      "areas_transversais": 6162.0,
+      "largura": 1210.0,
+      "comprimento": 0.0,
+      "altura": 2350.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "20",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 15,
+      "id_FCA": 15,
+      "modelo": "VAP - 790 /12/35",
+      "diametro": 790.0,
+      "potencia_do_motor": 4.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 148,
+      "id_FCA": 16,
+      "modelo": "SDJ - 9",
+      "vazao": 80.8,
+      "potencia": 7.5,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 16,
+      "id_FCA": 16,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 16,
+      "nome": "204",
+      "Cod": 44,
+      "comprimento_feixe": 5.115,
+      "areas_transversais": 8295.0,
+      "largura": 1210.0,
+      "comprimento": 0.0,
+      "altura": 2350.0,
+      "area_livre_ventilador": 0.4227,
+      "velocidade_periferica": 47.56,
+      "MOD_FCA": "20",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 16,
+      "id_FCA": 16,
+      "modelo": "VAP - 790 /12/35",
+      "diametro": 790.0,
+      "potencia_do_motor": 4.0,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 149,
+      "id_FCA": 17,
+      "modelo": "SDLP - 6",
+      "vazao": 25.2,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 17,
+      "id_FCA": 17,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 17,
+      "nome": "251",
+      "Cod": 51,
+      "comprimento_feixe": 1.465,
+      "areas_transversais": 2524.0,
+      "largura": 1730.0,
+      "comprimento": 1730.0,
+      "altura": 2710.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "25",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 17,
+      "id_FCA": 17,
+      "modelo": "VAP - 910/8/35",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 150,
+      "id_FCA": 18,
+      "modelo": "DJ - 7X",
+      "vazao": 53.3,
+      "potencia": 4.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 18,
+      "id_FCA": 18,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 18,
+      "nome": "252",
+      "Cod": 52,
+      "comprimento_feixe": 3.235,
+      "areas_transversais": 5325.0,
+      "largura": 1730.0,
+      "comprimento": 3460.0,
+      "altura": 2710.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "25",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 18,
+      "id_FCA": 18,
+      "modelo": "VAP - 910/8/35",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 151,
+      "id_FCA": 19,
+      "modelo": "DJ - 9",
+      "vazao": 81.2,
+      "potencia": 7.5,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 19,
+      "id_FCA": 19,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 19,
+      "nome": "253",
+      "Cod": 53,
+      "comprimento_feixe": 5.005,
+      "areas_transversais": 8121.0,
+      "largura": 1730.0,
+      "comprimento": 5190.0,
+      "altura": 2710.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "25",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 19,
+      "id_FCA": 19,
+      "modelo": "VAP - 910/8/35",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 152,
+      "id_FCA": 20,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 20,
+      "id_FCA": 20,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 20,
+      "nome": "254",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 1730.0,
+      "comprimento": 6920.0,
+      "altura": 2710.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "25",
+      "N_feixes": 2.0,
+      "N_tub_hor": 24.0
+    },
+    "ventiladores": {
+      "id": 20,
+      "id_FCA": 20,
+      "modelo": "VAP - 910/8/35",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 153,
+      "id_FCA": 21,
+      "modelo": "SDLP - 6",
+      "vazao": 32.2,
+      "potencia": 2.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 21,
+      "id_FCA": 21,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 21,
+      "nome": "321",
+      "Cod": 61,
+      "comprimento_feixe": 1.465,
+      "areas_transversais": 3216.0,
+      "largura": 2160.0,
+      "comprimento": 1760.0,
+      "altura": 2765.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "32",
+      "N_feixes": 3.0,
+      "N_tub_hor": 30.0
+    },
+    "ventiladores": {
+      "id": 21,
+      "id_FCA": 21,
+      "modelo": "VAP - 910/8/40",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 154,
+      "id_FCA": 22,
+      "modelo": "DJ - 8",
+      "vazao": 67.7,
+      "potencia": 5.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 22,
+      "id_FCA": 22,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 22,
+      "nome": "322",
+      "Cod": 62,
+      "comprimento_feixe": 3.235,
+      "areas_transversais": 6774.0,
+      "largura": 2161.0,
+      "comprimento": 3520.0,
+      "altura": 2765.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "32",
+      "N_feixes": 3.0,
+      "N_tub_hor": 30.0
+    },
+    "ventiladores": {
+      "id": 22,
+      "id_FCA": 22,
+      "modelo": "VAP - 910/8/41",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 155,
+      "id_FCA": 23,
+      "modelo": "GZ - 8X - 4",
+      "vazao": 103.3,
+      "potencia": 6.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 23,
+      "id_FCA": 23,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 23,
+      "nome": "323",
+      "Cod": 63,
+      "comprimento_feixe": 5.005,
+      "areas_transversais": 10331.0,
+      "largura": 2162.0,
+      "comprimento": 5280.0,
+      "altura": 2765.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "32",
+      "N_feixes": 3.0,
+      "N_tub_hor": 30.0
+    },
+    "ventiladores": {
+      "id": 23,
+      "id_FCA": 23,
+      "modelo": "VAP - 910/8/42",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 156,
+      "id_FCA": 24,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 24,
+      "id_FCA": 24,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 24,
+      "nome": "324",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 2163.0,
+      "comprimento": 0.0,
+      "altura": 2765.0,
+      "area_livre_ventilador": 0.5318,
+      "velocidade_periferica": 54.79,
+      "MOD_FCA": "32",
+      "N_feixes": 3.0,
+      "N_tub_hor": 30.0
+    },
+    "ventiladores": {
+      "id": 24,
+      "id_FCA": 24,
+      "modelo": "VAP - 910/8/43",
+      "diametro": 910.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 1150.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 157,
+      "id_FCA": 25,
+      "modelo": "DJ - 7X",
+      "vazao": 47.4,
+      "potencia": 4.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 25,
+      "id_FCA": 25,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 25,
+      "nome": "501",
+      "Cod": 71,
+      "comprimento_feixe": 1.865,
+      "areas_transversais": 4740.0,
+      "largura": 2570.0,
+      "comprimento": 2170.0,
+      "altura": 3565.0,
+      "area_livre_ventilador": 1.05,
+      "velocidade_periferica": 54.73,
+      "MOD_FCA": "50",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 25,
+      "id_FCA": 25,
+      "modelo": "9E / 1.23 - K8",
+      "diametro": 1230.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 875.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 158,
+      "id_FCA": 26,
+      "modelo": "GZ - 8X - 4",
+      "vazao": 99.5,
+      "potencia": 6.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 26,
+      "id_FCA": 26,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 26,
+      "nome": "502",
+      "Cod": 72,
+      "comprimento_feixe": 4.065,
+      "areas_transversais": 9954.0,
+      "largura": 2570.0,
+      "comprimento": 4340.0,
+      "altura": 3565.0,
+      "area_livre_ventilador": 1.05,
+      "velocidade_periferica": 54.73,
+      "MOD_FCA": "50",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 26,
+      "id_FCA": 26,
+      "modelo": "9E / 1.23 - K8",
+      "diametro": 1230.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 875.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 159,
+      "id_FCA": 27,
+      "modelo": "BO - 10",
+      "vazao": 151.7,
+      "potencia": 10.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 27,
+      "id_FCA": 27,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 27,
+      "nome": "503",
+      "Cod": 73,
+      "comprimento_feixe": 6.265,
+      "areas_transversais": 15168.0,
+      "largura": 2570.0,
+      "comprimento": 6510.0,
+      "altura": 3565.0,
+      "area_livre_ventilador": 1.05,
+      "velocidade_periferica": 54.73,
+      "MOD_FCA": "50",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 27,
+      "id_FCA": 27,
+      "modelo": "9E / 1.23 - K8",
+      "diametro": 1230.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 875.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 160,
+      "id_FCA": 28,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 28,
+      "id_FCA": 28,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 28,
+      "nome": "504",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 2570.0,
+      "comprimento": 0.0,
+      "altura": 3565.0,
+      "area_livre_ventilador": 1.05,
+      "velocidade_periferica": 54.73,
+      "MOD_FCA": "50",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 28,
+      "id_FCA": 28,
+      "modelo": "9E / 1.23 - K8",
+      "diametro": 1230.0,
+      "potencia_do_motor": 7.5,
+      "RPM_ventilador": 875.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 161,
+      "id_FCA": 29,
+      "modelo": "DJ - 7X",
+      "vazao": 56.9,
+      "potencia": 4.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 29,
+      "id_FCA": 29,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 29,
+      "nome": "631",
+      "Cod": 81,
+      "comprimento_feixe": 2.265,
+      "areas_transversais": 5688.0,
+      "largura": 2570.0,
+      "comprimento": 2570.0,
+      "altura": 3845.0,
+      "area_livre_ventilador": 1.52,
+      "velocidade_periferica": 55.71,
+      "MOD_FCA": "63",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 29,
+      "id_FCA": 29,
+      "modelo": "9E / 1.48 - K10",
+      "diametro": 1480.0,
+      "potencia_do_motor": 10.0,
+      "RPM_ventilador": 700.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 162,
+      "id_FCA": 30,
+      "modelo": "GZ - 9 -4",
+      "vazao": 117.8,
+      "potencia": 7.5,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 30,
+      "id_FCA": 30,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 30,
+      "nome": "632",
+      "Cod": 82,
+      "comprimento_feixe": 4.835,
+      "areas_transversais": 11779.0,
+      "largura": 2570.0,
+      "comprimento": 5140.0,
+      "altura": 3845.0,
+      "area_livre_ventilador": 1.52,
+      "velocidade_periferica": 55.71,
+      "MOD_FCA": "63",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 30,
+      "id_FCA": 30,
+      "modelo": "9E / 1.48 - K10",
+      "diametro": 1480.0,
+      "potencia_do_motor": 10.0,
+      "RPM_ventilador": 700.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 163,
+      "id_FCA": 31,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 31,
+      "id_FCA": 31,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 31,
+      "nome": "633",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 2570.0,
+      "comprimento": 0.0,
+      "altura": 3845.0,
+      "area_livre_ventilador": 1.52,
+      "velocidade_periferica": 55.71,
+      "MOD_FCA": "63",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 31,
+      "id_FCA": 31,
+      "modelo": "9E / 1.48 - K10",
+      "diametro": 1480.0,
+      "potencia_do_motor": 10.0,
+      "RPM_ventilador": 700.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 164,
+      "id_FCA": 32,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 32,
+      "id_FCA": 32,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 32,
+      "nome": "634",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 2570.0,
+      "comprimento": 0.0,
+      "altura": 3845.0,
+      "area_livre_ventilador": 1.52,
+      "velocidade_periferica": 55.71,
+      "MOD_FCA": "63",
+      "N_feixes": 3.0,
+      "N_tub_hor": 36.0
+    },
+    "ventiladores": {
+      "id": 32,
+      "id_FCA": 32,
+      "modelo": "9E / 1.48 - K10",
+      "diametro": 1480.0,
+      "potencia_do_motor": 10.0,
+      "RPM_ventilador": 700.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 165,
+      "id_FCA": 33,
+      "modelo": "DJ - 8X",
+      "vazao": 78.7,
+      "potencia": 6.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 33,
+      "id_FCA": 33,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 33,
+      "nome": "801",
+      "Cod": 91,
+      "comprimento_feixe": 2.675,
+      "areas_transversais": 7868.0,
+      "largura": 2980.0,
+      "comprimento": 2980.0,
+      "altura": 4140.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "80",
+      "N_feixes": 4.0,
+      "N_tub_hor": 42.0
+    },
+    "ventiladores": {
+      "id": 33,
+      "id_FCA": 33,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 12.5,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 166,
+      "id_FCA": 34,
+      "modelo": "BO - 10X",
+      "vazao": 181.8,
+      "potencia": 12.5,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 34,
+      "id_FCA": 34,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 34,
+      "nome": "802",
+      "Cod": 92,
+      "comprimento_feixe": 5.645,
+      "areas_transversais": 16184.0,
+      "largura": 2980.0,
+      "comprimento": 5960.0,
+      "altura": 4140.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "80",
+      "N_feixes": 4.0,
+      "N_tub_hor": 42.0
+    },
+    "ventiladores": {
+      "id": 34,
+      "id_FCA": 34,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 12.5,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 167,
+      "id_FCA": 35,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 35,
+      "id_FCA": 35,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 35,
+      "nome": "803",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 2980.0,
+      "comprimento": 0.0,
+      "altura": 4140.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "80",
+      "N_feixes": 4.0,
+      "N_tub_hor": 42.0
+    },
+    "ventiladores": {
+      "id": 35,
+      "id_FCA": 35,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 12.5,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 168,
+      "id_FCA": 36,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 36,
+      "id_FCA": 36,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 36,
+      "nome": "804",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 2980.0,
+      "comprimento": 0.0,
+      "altura": 4140.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "80",
+      "N_feixes": 4.0,
+      "N_tub_hor": 42.0
+    },
+    "ventiladores": {
+      "id": 36,
+      "id_FCA": 36,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 12.5,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 169,
+      "id_FCA": 37,
+      "modelo": "GZ - 8X - 4",
+      "vazao": 101.1,
+      "potencia": 6.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 37,
+      "id_FCA": 37,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 37,
+      "nome": "1001",
+      "Cod": 101,
+      "comprimento_feixe": 3.065,
+      "areas_transversais": 10112.0,
+      "largura": 3390.0,
+      "comprimento": 3390.0,
+      "altura": 4280.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "100",
+      "N_feixes": 4.0,
+      "N_tub_hor": 48.0
+    },
+    "ventiladores": {
+      "id": 37,
+      "id_FCA": 37,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 15.0,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 170,
+      "id_FCA": 38,
+      "modelo": "EO - 10",
+      "vazao": 198.2,
+      "potencia": 10.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 38,
+      "id_FCA": 38,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 38,
+      "nome": "1002",
+      "Cod": 102,
+      "comprimento_feixe": 6.455,
+      "areas_transversais": 20824.0,
+      "largura": 3390.0,
+      "comprimento": 6780.0,
+      "altura": 4280.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "100",
+      "N_feixes": 4.0,
+      "N_tub_hor": 48.0
+    },
+    "ventiladores": {
+      "id": 38,
+      "id_FCA": 38,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 15.0,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 171,
+      "id_FCA": 39,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 39,
+      "id_FCA": 39,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 39,
+      "nome": "1003",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 3390.0,
+      "comprimento": 0.0,
+      "altura": 4280.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "100",
+      "N_feixes": 4.0,
+      "N_tub_hor": 48.0
+    },
+    "ventiladores": {
+      "id": 39,
+      "id_FCA": 39,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 15.0,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 172,
+      "id_FCA": 40,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 40,
+      "id_FCA": 40,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 40,
+      "nome": "1004",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 3390.0,
+      "comprimento": 0.0,
+      "altura": 4280.0,
+      "area_livre_ventilador": 2.13,
+      "velocidade_periferica": 50.91,
+      "MOD_FCA": "100",
+      "N_feixes": 4.0,
+      "N_tub_hor": 48.0
+    },
+    "ventiladores": {
+      "id": 40,
+      "id_FCA": 40,
+      "modelo": "9E / 1.75 - K10",
+      "diametro": 1750.0,
+      "potencia_do_motor": 15.0,
+      "RPM_ventilador": 555.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 173,
+      "id_FCA": 41,
+      "modelo": "SGZ - 9 - 4",
+      "vazao": 126.4,
+      "potencia": 7.5,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 41,
+      "id_FCA": 41,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 41,
+      "nome": "1251",
+      "Cod": 111,
+      "comprimento_feixe": 3.065,
+      "areas_transversais": 12640.0,
+      "largura": 4200.0,
+      "comprimento": 3360.0,
+      "altura": 4800.0,
+      "area_livre_ventilador": 3.42,
+      "velocidade_periferica": 51.3,
+      "MOD_FCA": "125",
+      "N_feixes": 5.0,
+      "N_tub_hor": 60.0
+    },
+    "ventiladores": {
+      "id": 41,
+      "id_FCA": 41,
+      "modelo": "9E / 2.2 - K10",
+      "diametro": 2240.0,
+      "potencia_do_motor": 20.0,
+      "RPM_ventilador": 437.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 174,
+      "id_FCA": 42,
+      "modelo": "EO - 12",
+      "vazao": 259.4,
+      "potencia": 20.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 42,
+      "id_FCA": 42,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 42,
+      "nome": "1252",
+      "Cod": 112,
+      "comprimento_feixe": 6.435,
+      "areas_transversais": 25952.0,
+      "largura": 4200.0,
+      "comprimento": 6720.0,
+      "altura": 4800.0,
+      "area_livre_ventilador": 3.42,
+      "velocidade_periferica": 51.3,
+      "MOD_FCA": "125",
+      "N_feixes": 5.0,
+      "N_tub_hor": 60.0
+    },
+    "ventiladores": {
+      "id": 42,
+      "id_FCA": 42,
+      "modelo": "9E / 2.2 - K10",
+      "diametro": 2240.0,
+      "potencia_do_motor": 20.0,
+      "RPM_ventilador": 437.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 175,
+      "id_FCA": 43,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 43,
+      "id_FCA": 43,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 43,
+      "nome": "1253",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 4200.0,
+      "comprimento": 0.0,
+      "altura": 4800.0,
+      "area_livre_ventilador": 3.42,
+      "velocidade_periferica": 51.3,
+      "MOD_FCA": "125",
+      "N_feixes": 5.0,
+      "N_tub_hor": 60.0
+    },
+    "ventiladores": {
+      "id": 43,
+      "id_FCA": 43,
+      "modelo": "9E / 2.2 - K10",
+      "diametro": 2240.0,
+      "potencia_do_motor": 20.0,
+      "RPM_ventilador": 437.0
+    }
+  },
+  {
+    "bomba": {
+      "id": 176,
+      "id_FCA": 44,
+      "modelo": "0",
+      "vazao": 0.0,
+      "potencia": 0.0,
+      "pressao": 8.0,
+      "rotacao": 3500.0
+    },
+    "charsFCA": {
+      "id": 44,
+      "id_FCA": 44,
+      "FCA": 1,
+      "N_tub_ver": 20.0,
+      "dis_entre_tub": 87.0,
+      "diam_extern_tub": 0.01905,
+      "diam_intern_tub": 0.01605,
+      "exp_parede": 0.0015,
+      "condutibil_termic": 45.349
+    },
+    "fca": {
+      "id": 44,
+      "nome": "1254",
+      "Cod": 0,
+      "comprimento_feixe": 0.0,
+      "areas_transversais": 0.0,
+      "largura": 4200.0,
+      "comprimento": 0.0,
+      "altura": 4800.0,
+      "area_livre_ventilador": 3.42,
+      "velocidade_periferica": 51.3,
+      "MOD_FCA": "125",
+      "N_feixes": 5.0,
+      "N_tub_hor": 60.0
+    },
+    "ventiladores": {
+      "id": 44,
+      "id_FCA": 44,
+      "modelo": "9E / 2.2 - K10",
+      "diametro": 2240.0,
+      "potencia_do_motor": 20.0,
+      "RPM_ventilador": 437.0
+    }
+  }
+]

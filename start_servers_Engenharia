@@ -1,0 +1,24 @@
+#!/bin/bash
+
+# Iniciar o servidor frontend
+cd /var/www/html/eng/engenharia/frontc
+
+nohup sh -c 'HOST=10.0.0.183 PORT=5175 npm run frontend' > /dev/null 2>&1 &
+
+# Aguardar alguns segundos para o servidor frontend iniciar completamente
+sleep 5
+
+# Iniciar o servidor backend com Gunicorn sem gerar logs
+cd /var/www/html/eng/engenharia/back/backengenharia
+
+# Aguardar alguns segundos para o servidor backend iniciar completamente
+sleep 5
+
+nohup celery -A backengenharia worker -l info > /dev/null 2>&1 &
+
+# Aguardar alguns segundos para o servidor backend iniciar completamente
+sleep 5
+
+nohup python3 -m gunicorn backengenharia.wsgi:application --bind 10.0.0.183:8001 --workers 3 > /dev/null 2>&1 &
+
+echo "Servidores frontend e backend iniciados com sucesso."

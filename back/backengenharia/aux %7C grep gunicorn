@@ -1,0 +1,20 @@
+[0;1;32m●[0m apache2.service - The Apache HTTP Server
+   Loaded: loaded (/lib/systemd/system/apache2.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2023-12-19 12:18:03 -03; 51s ago
+     Docs: https://httpd.apache.org/docs/2.4/
+  Process: 14426 ExecStart=/usr/sbin/apachectl start (code=exited, status=0/SUCCESS)
+ Main PID: 14430 (apache2)
+    Tasks: 7 (limit: 3442)
+   Memory: 36.6M
+   CGroup: /system.slice/apache2.service
+           ├─14430 /usr/sbin/apache2 -k start
+           ├─14431 /usr/sbin/apache2 -k start
+           ├─14432 /usr/sbin/apache2 -k start
+           ├─14433 /usr/sbin/apache2 -k start
+           ├─14434 /usr/sbin/apache2 -k start
+           ├─14435 /usr/sbin/apache2 -k start
+           └─14450 /usr/sbin/apache2 -k start
+
+dez 19 12:18:03 vm-qa-web systemd[1]: Starting The Apache HTTP Server...
+dez 19 12:18:03 vm-qa-web apachectl[14426]: AH00558: apache2: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+dez 19 12:18:03 vm-qa-web systemd[1]: Started The Apache HTTP Server.

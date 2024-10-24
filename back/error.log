@@ -1,0 +1,11 @@
+[2024-10-11 17:22:13 -0300] [224704] [INFO] Starting gunicorn 21.2.0
+[2024-10-11 17:22:13 -0300] [224704] [INFO] Listening at: http://10.0.0.183:8001 (224704)
+[2024-10-11 17:22:13 -0300] [224704] [INFO] Using worker: sync
+[2024-10-11 17:22:13 -0300] [224705] [INFO] Booting worker with pid: 224705
+[2024-10-11 17:22:13 -0300] [224706] [INFO] Booting worker with pid: 224706
+[2024-10-11 17:22:13 -0300] [224707] [INFO] Booting worker with pid: 224707
+[2024-10-11 17:22:44 -0300] [224704] [INFO] Handling signal: int
+[2024-10-11 20:22:44 +0000] [224706] [INFO] Worker exiting (pid: 224706)
+[2024-10-11 20:22:44 +0000] [224705] [INFO] Worker exiting (pid: 224705)
+[2024-10-11 20:22:44 +0000] [224707] [INFO] Worker exiting (pid: 224707)
+[2024-10-11 17:22:44 -0300] [224704] [INFO] Shutting down: Master

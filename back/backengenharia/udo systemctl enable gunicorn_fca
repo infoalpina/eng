@@ -1,0 +1,19 @@
+[0;1;32m●[0m gunicorn_fca.service - gunicorn blog daemon
+   Loaded: loaded (/etc/systemd/system/gunicorn_fca.service; disabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2023-12-20 12:04:30 -03; 2s ago
+ Main PID: 43183 (gunicorn)
+    Tasks: 4 (limit: 3442)
+   Memory: 90.3M
+   CGroup: /system.slice/gunicorn_fca.service
+           ├─43183 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 backengenharia.wsgi:application
+           ├─43184 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 backengenharia.wsgi:application
+           ├─43185 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 backengenharia.wsgi:application
+           └─43186 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 backengenharia.wsgi:application
+
+dez 20 12:04:30 vm-qa-web systemd[1]: Started gunicorn blog daemon.
+dez 20 12:04:30 vm-qa-web gunicorn[43183]: [2023-12-20 12:04:30 -0300] [43183] [INFO] Starting gunicorn 21.2.0
+dez 20 12:04:30 vm-qa-web gunicorn[43183]: [2023-12-20 12:04:30 -0300] [43183] [INFO] Listening at: unix:/run/gunicorn_fca.sock (43183)
+dez 20 12:04:30 vm-qa-web gunicorn[43183]: [2023-12-20 12:04:30 -0300] [43183] [INFO] Using worker: sync
+dez 20 12:04:30 vm-qa-web gunicorn[43183]: [2023-12-20 12:04:30 -0300] [43184] [INFO] Booting worker with pid: 43184
+dez 20 12:04:30 vm-qa-web gunicorn[43183]: [2023-12-20 12:04:30 -0300] [43185] [INFO] Booting worker with pid: 43185
+dez 20 12:04:30 vm-qa-web gunicorn[43183]: [2023-12-20 12:04:30 -0300] [43186] [INFO] Booting worker with pid: 43186

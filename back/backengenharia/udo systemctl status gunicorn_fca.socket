@@ -1,0 +1,16 @@
+● gunicorn_fca.service - gunicorn blog daemon
+   Loaded: loaded (/etc/systemd/system/gunicorn_fca.service; enabled; vendor preset: enabled)
+   Active: inactive (dead) since Wed 2023-12-20 18:59:36 -03; 16h ago
+  Process: 487 ExecStart=/var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 backengenharia.wsgi:application (code=exited, status=0/SUCCESS)
+ Main PID: 487 (code=exited, status=0/SUCCESS)
+
+dez 20 18:00:57 vm-qa-web gunicorn[487]: [2023-12-20 18:00:57 -0300] [614] [INFO] Booting worker with pid: 614
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 21:59:35 +0000] [611] [INFO] Worker exiting (pid: 611)
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 21:59:35 +0000] [609] [INFO] Worker exiting (pid: 609)
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 21:59:35 +0000] [614] [INFO] Worker exiting (pid: 614)
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 18:59:35 -0300] [487] [INFO] Handling signal: term
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 18:59:35 -0300] [487] [ERROR] Worker (pid:611) was sent SIGTERM!
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 18:59:35 -0300] [487] [ERROR] Worker (pid:609) was sent SIGTERM!
+dez 20 18:59:35 vm-qa-web gunicorn[487]: [2023-12-20 18:59:35 -0300] [487] [ERROR] Worker (pid:614) was sent SIGTERM!
+dez 20 18:59:36 vm-qa-web gunicorn[487]: [2023-12-20 18:59:36 -0300] [487] [INFO] Shutting down: Master
+dez 20 18:59:36 vm-qa-web systemd[1]: gunicorn_fca.service: Succeeded.

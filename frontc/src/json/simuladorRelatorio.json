@@ -1,0 +1,62 @@
+[
+  {
+    "Projeto": {
+      "Carga térmica": "1000 kW",
+      "Vazão de água total": "200 m³/h",
+      "Temperatura de água quente": "60°C",
+      "Temperatura de água fria": "25°C",
+      "Temperatura de bulbo úmido de ar": "22°C",
+      "Altitude local": "300 metros",
+      "Nível de ruído": "75 dB"
+    },
+    "Real": {
+      "Carga térmica": "950 kW",
+      "Vazão de água total": "190 m³/h",
+      "Temperatura de água quente": "58°C",
+      "Temperatura de água fria": "26°C",
+      "Temperatura de bulbo úmido de ar": "23°C",
+      "Altitude local": "310 metros",
+      "Nível de ruído": "72 dB"
+    },
+    "Torres selecionadas": {
+      "Tiragem do ar": "Induzida",
+      "Número de células": 2,
+      "Tipos de enchimento": "Film Fill",
+      "Número de motores/ventilador por célula": 1,
+      "Vazão de ar em cada ventilador": "5000 m³/h",
+      "Perda de pressão estática na torre": "30 Pa",
+      "Perda de pressão estática adicional": "10 Pa",
+      "Perda de pressão estática total": "40 Pa",
+      "Densidade do ar no ventilador": "1.2 kg/m³",
+      "Modelo do ventilador": "Axial Flow",
+      "Diâmetro de ventilador": "800 mm",
+      "Ângulo das pás": "20 graus",
+      "Transmissão": "Correia em V",
+      "Taxa de redução": "5:1",
+      "Potência do motor elétrico": "7.5 kW",
+      "Potência consumida pelo ventilador": "6.8 kW",
+      "Rotação do ventilador": "1450 RPM",
+      "Velocidade periférica do ventilador": "25 m/s",
+      "Pressão sonora por ventilador, a 2m": "85 dB",
+      "Motor elétrico tipo": "IP55",
+      "Perda de água por evaporação": "2000 L/h",
+      "Perda de água por arraste": "100 L/h",
+      "Pressão requerida na entrada": "200 Pa",
+      "Pressão máxima admissível na entrada": "300 Pa",
+      "Dimensões externas": "2.5m x 2.5m x 5m"
+    },
+
+    "Materiais de construção": {
+      "Estrutura": "Aço Carbono",
+      "Revestimento lateral": "Painéis de Fibra de Vidro",
+      "Bacia de água fria": "Concreto Armado",
+      "Enchimento": "PVC",
+      "Eliminadores de gotas": "Polipropileno",
+      "Sistema de distribuição": "Tubos de PVC",
+      "Ventilador": "Alumínio",
+      "Pigmentação do PRFV": "Azul",
+      "PRF": "Polímero Reforçado com Fibra de Vidro",
+      "AE": "Aço Eletrozincado"
+    }
+  }
+]

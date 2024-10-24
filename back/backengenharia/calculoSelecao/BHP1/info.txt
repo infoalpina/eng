@@ -1,0 +1,7 @@
+
+
+haupt->main
+mod -> modifica as informações nas quais serão usadas para fins de calculos (semelhante aqo que sera realizado no front-end e encaminhado os dados para o backend)
+skalp -> assemelha-se bastante as modificações realizadas no frontend
+
+

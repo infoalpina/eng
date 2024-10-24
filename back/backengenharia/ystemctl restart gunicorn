@@ -1,0 +1,230 @@
+-- Logs begin at Fri 2023-12-15 13:52:29 -03, end at Tue 2023-12-19 13:35:02 -03. --
+dez 19 12:37:21 vm-qa-web systemd[1]: [0;1;39m[0;1;31m[0;1;39m/etc/systemd/system/gunicorn.service:4: Unknown lvalue 'WorkingDirectory' in section 'Unit', ignoring[0m
+dez 19 12:37:21 vm-qa-web systemd[1]: [0;1;39m[0;1;31m[0;1;39m/etc/systemd/system/gunicorn.service:5: Unknown lvalue 'ExecStart' in section 'Unit', ignoring[0m
+dez 19 12:37:21 vm-qa-web systemd[1]: [0;1;31m[0;1;39m[0;1;31mgunicorn.service: Service has no ExecStart=, ExecStop=, or SuccessAction=. Refusing.[0m
+dez 19 12:39:46 vm-qa-web systemd[1]: [0;1;31m[0;1;39m[0;1;31m/etc/systemd/system/gunicorn.service:5: Invalid user/group name or numeric ID: seu_usuario  # Substitua pelo seu nome de usuário[0m
+dez 19 12:42:59 vm-qa-web systemd[1]: [0;1;31m[0;1;39m[0;1;31m/etc/systemd/system/gunicorn.service:5: Invalid user/group name or numeric ID: seu_usuario  # Substitua pelo seu nome de usuário[0m
+dez 19 12:46:10 vm-qa-web systemd[1]: [0;1;31m[0;1;39m[0;1;31m/etc/systemd/system/gunicorn.service:5: Invalid user/group name or numeric ID: seu_usuario  # Substitua pelo seu nome de usuário[0m
+dez 19 12:50:38 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 12:50:38 vm-qa-web gunicorn[15181]: [2023-12-19 12:50:38 -0300] [15181] [INFO] Starting gunicorn 21.2.0
+dez 19 12:50:38 vm-qa-web gunicorn[15181]: [2023-12-19 12:50:38 -0300] [15181] [INFO] Listening at: http://127.0.0.1:8000 (15181)
+dez 19 12:50:38 vm-qa-web gunicorn[15181]: [2023-12-19 12:50:38 -0300] [15181] [INFO] Using worker: sync
+dez 19 12:50:38 vm-qa-web gunicorn[15181]: [2023-12-19 12:50:38 -0300] [15182] [INFO] Booting worker with pid: 15182
+dez 19 12:50:38 vm-qa-web gunicorn[15181]: [2023-12-19 12:50:38 -0300] [15183] [INFO] Booting worker with pid: 15183
+dez 19 12:50:38 vm-qa-web gunicorn[15181]: [2023-12-19 12:50:38 -0300] [15184] [INFO] Booting worker with pid: 15184
+dez 19 12:51:19 vm-qa-web gunicorn[15181]: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:19 vm-qa-web gunicorn[15181]: Traceback (most recent call last):
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     response = get_response(request)
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     response = self.process_request(request)
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     host = request.get_host()
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:            ^^^^^^^^^^^^^^^^^^
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     raise DisallowedHost(msg)
+dez 19 12:51:19 vm-qa-web gunicorn[15181]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:19 vm-qa-web gunicorn[15181]: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:19 vm-qa-web gunicorn[15181]: Traceback (most recent call last):
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     response = get_response(request)
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     response = self.process_request(request)
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     host = request.get_host()
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:            ^^^^^^^^^^^^^^^^^^
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 12:51:19 vm-qa-web gunicorn[15181]:     raise DisallowedHost(msg)
+dez 19 12:51:19 vm-qa-web gunicorn[15181]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:20 vm-qa-web gunicorn[15181]: Bad Request: /
+dez 19 12:51:20 vm-qa-web gunicorn[15181]: Bad Request: /
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: Traceback (most recent call last):
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     response = get_response(request)
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     response = self.process_request(request)
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     host = request.get_host()
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:            ^^^^^^^^^^^^^^^^^^
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     raise DisallowedHost(msg)
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: Traceback (most recent call last):
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     response = get_response(request)
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     response = self.process_request(request)
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     host = request.get_host()
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:            ^^^^^^^^^^^^^^^^^^
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 12:51:31 vm-qa-web gunicorn[15181]:     raise DisallowedHost(msg)
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:51:31 vm-qa-web gunicorn[15181]: Bad Request: /
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: Traceback (most recent call last):
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     response = get_response(request)
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     response = self.process_request(request)
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     host = request.get_host()
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:            ^^^^^^^^^^^^^^^^^^
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     raise DisallowedHost(msg)
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: Traceback (most recent call last):
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/core/handlers/exception.py", line 55, in inner
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     response = get_response(request)
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     response = self.process_request(request)
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     host = request.get_host()
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:            ^^^^^^^^^^^^^^^^^^
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 12:54:23 vm-qa-web gunicorn[15181]:     raise DisallowedHost(msg)
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 12:54:23 vm-qa-web gunicorn[15181]: Bad Request: /
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 12:59:31 -0300] [15181] [INFO] Handling signal: term
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 15:59:31 +0000] [15184] [INFO] Worker exiting (pid: 15184)
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 15:59:31 +0000] [15182] [INFO] Worker exiting (pid: 15182)
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 15:59:31 +0000] [15183] [INFO] Worker exiting (pid: 15183)
+dez 19 12:59:31 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 12:59:31 -0300] [15181] [ERROR] Worker (pid:15183) was sent SIGTERM!
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 12:59:31 -0300] [15181] [ERROR] Worker (pid:15182) was sent SIGTERM!
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 12:59:31 -0300] [15181] [ERROR] Worker (pid:15184) was sent SIGTERM!
+dez 19 12:59:31 vm-qa-web gunicorn[15181]: [2023-12-19 12:59:31 -0300] [15181] [INFO] Shutting down: Master
+dez 19 12:59:31 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 12:59:31 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 12:59:31 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 12:59:31 vm-qa-web gunicorn[15355]: [2023-12-19 12:59:31 -0300] [15355] [INFO] Starting gunicorn 21.2.0
+dez 19 12:59:31 vm-qa-web gunicorn[15355]: [2023-12-19 12:59:31 -0300] [15355] [INFO] Listening at: http://127.0.0.1:8000 (15355)
+dez 19 12:59:31 vm-qa-web gunicorn[15355]: [2023-12-19 12:59:31 -0300] [15355] [INFO] Using worker: sync
+dez 19 12:59:31 vm-qa-web gunicorn[15355]: [2023-12-19 12:59:31 -0300] [15356] [INFO] Booting worker with pid: 15356
+dez 19 12:59:31 vm-qa-web gunicorn[15355]: [2023-12-19 12:59:31 -0300] [15357] [INFO] Booting worker with pid: 15357
+dez 19 12:59:31 vm-qa-web gunicorn[15355]: [2023-12-19 12:59:31 -0300] [15358] [INFO] Booting worker with pid: 15358
+dez 19 13:07:04 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:07:04 vm-qa-web gunicorn[15355]: [2023-12-19 13:07:04 -0300] [15355] [INFO] Handling signal: term
+dez 19 13:07:04 vm-qa-web gunicorn[15355]: [2023-12-19 16:07:04 +0000] [15356] [INFO] Worker exiting (pid: 15356)
+dez 19 13:07:04 vm-qa-web gunicorn[15355]: [2023-12-19 16:07:04 +0000] [15358] [INFO] Worker exiting (pid: 15358)
+dez 19 13:07:04 vm-qa-web gunicorn[15355]: [2023-12-19 16:07:04 +0000] [15357] [INFO] Worker exiting (pid: 15357)
+dez 19 13:07:04 vm-qa-web gunicorn[15355]: [2023-12-19 13:07:04 -0300] [15355] [INFO] Shutting down: Master
+dez 19 13:07:04 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:07:04 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:07:04 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:07:04 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:04 -0300] [15487] [INFO] Starting gunicorn 21.2.0
+dez 19 13:07:04 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:04 -0300] [15487] [INFO] Listening at: http://127.0.0.1:8000 (15487)
+dez 19 13:07:04 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:04 -0300] [15487] [INFO] Using worker: sync
+dez 19 13:07:04 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:04 -0300] [15488] [INFO] Booting worker with pid: 15488
+dez 19 13:07:04 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:04 -0300] [15489] [INFO] Booting worker with pid: 15489
+dez 19 13:07:04 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:04 -0300] [15490] [INFO] Booting worker with pid: 15490
+dez 19 13:07:31 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:07:31 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:31 -0300] [15487] [INFO] Handling signal: term
+dez 19 13:07:31 vm-qa-web gunicorn[15487]: [2023-12-19 16:07:31 +0000] [15490] [INFO] Worker exiting (pid: 15490)
+dez 19 13:07:31 vm-qa-web gunicorn[15487]: [2023-12-19 16:07:31 +0000] [15488] [INFO] Worker exiting (pid: 15488)
+dez 19 13:07:31 vm-qa-web gunicorn[15487]: [2023-12-19 16:07:31 +0000] [15489] [INFO] Worker exiting (pid: 15489)
+dez 19 13:07:31 vm-qa-web gunicorn[15487]: [2023-12-19 13:07:31 -0300] [15487] [INFO] Shutting down: Master
+dez 19 13:07:31 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:07:31 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:07:31 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:07:31 vm-qa-web gunicorn[15509]: [2023-12-19 13:07:31 -0300] [15509] [INFO] Starting gunicorn 21.2.0
+dez 19 13:07:31 vm-qa-web gunicorn[15509]: [2023-12-19 13:07:31 -0300] [15509] [INFO] Listening at: http://127.0.0.1:8000 (15509)
+dez 19 13:07:31 vm-qa-web gunicorn[15509]: [2023-12-19 13:07:31 -0300] [15509] [INFO] Using worker: sync
+dez 19 13:07:31 vm-qa-web gunicorn[15509]: [2023-12-19 13:07:31 -0300] [15510] [INFO] Booting worker with pid: 15510
+dez 19 13:07:31 vm-qa-web gunicorn[15509]: [2023-12-19 13:07:31 -0300] [15511] [INFO] Booting worker with pid: 15511
+dez 19 13:07:31 vm-qa-web gunicorn[15509]: [2023-12-19 13:07:31 -0300] [15512] [INFO] Booting worker with pid: 15512
+dez 19 13:09:54 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:09:54 vm-qa-web gunicorn[15509]: [2023-12-19 13:09:54 -0300] [15509] [INFO] Handling signal: term
+dez 19 13:09:54 vm-qa-web gunicorn[15509]: [2023-12-19 16:09:54 +0000] [15510] [INFO] Worker exiting (pid: 15510)
+dez 19 13:09:54 vm-qa-web gunicorn[15509]: [2023-12-19 16:09:54 +0000] [15512] [INFO] Worker exiting (pid: 15512)
+dez 19 13:09:54 vm-qa-web gunicorn[15509]: [2023-12-19 16:09:54 +0000] [15511] [INFO] Worker exiting (pid: 15511)
+dez 19 13:09:54 vm-qa-web gunicorn[15509]: [2023-12-19 13:09:54 -0300] [15509] [INFO] Shutting down: Master
+dez 19 13:09:54 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:09:54 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:09:54 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:09:54 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:54 -0300] [15599] [INFO] Starting gunicorn 21.2.0
+dez 19 13:09:54 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:54 -0300] [15599] [INFO] Listening at: http://127.0.0.1:8000 (15599)
+dez 19 13:09:54 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:54 -0300] [15599] [INFO] Using worker: sync
+dez 19 13:09:54 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:54 -0300] [15600] [INFO] Booting worker with pid: 15600
+dez 19 13:09:54 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:54 -0300] [15601] [INFO] Booting worker with pid: 15601
+dez 19 13:09:54 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:54 -0300] [15602] [INFO] Booting worker with pid: 15602
+dez 19 13:09:56 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:09:56 vm-qa-web gunicorn[15599]: [2023-12-19 16:09:56 +0000] [15600] [INFO] Worker exiting (pid: 15600)
+dez 19 13:09:56 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:56 -0300] [15599] [INFO] Handling signal: term
+dez 19 13:09:56 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:56 -0300] [15599] [ERROR] Worker (pid:15600) was sent SIGTERM!
+dez 19 13:09:56 vm-qa-web gunicorn[15599]: [2023-12-19 16:09:56 +0000] [15602] [INFO] Worker exiting (pid: 15602)
+dez 19 13:09:56 vm-qa-web gunicorn[15599]: [2023-12-19 16:09:56 +0000] [15601] [INFO] Worker exiting (pid: 15601)
+dez 19 13:09:56 vm-qa-web gunicorn[15599]: [2023-12-19 13:09:56 -0300] [15599] [INFO] Shutting down: Master
+dez 19 13:09:56 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:09:56 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:09:56 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:09:56 vm-qa-web gunicorn[15605]: [2023-12-19 13:09:56 -0300] [15605] [INFO] Starting gunicorn 21.2.0
+dez 19 13:09:56 vm-qa-web gunicorn[15605]: [2023-12-19 13:09:56 -0300] [15605] [INFO] Listening at: http://127.0.0.1:8000 (15605)
+dez 19 13:09:56 vm-qa-web gunicorn[15605]: [2023-12-19 13:09:56 -0300] [15605] [INFO] Using worker: sync
+dez 19 13:09:56 vm-qa-web gunicorn[15605]: [2023-12-19 13:09:56 -0300] [15606] [INFO] Booting worker with pid: 15606
+dez 19 13:09:56 vm-qa-web gunicorn[15605]: [2023-12-19 13:09:56 -0300] [15607] [INFO] Booting worker with pid: 15607
+dez 19 13:09:56 vm-qa-web gunicorn[15605]: [2023-12-19 13:09:56 -0300] [15608] [INFO] Booting worker with pid: 15608
+dez 19 13:28:46 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:28:46 vm-qa-web gunicorn[15605]: [2023-12-19 13:28:46 -0300] [15605] [INFO] Handling signal: term
+dez 19 13:28:46 vm-qa-web gunicorn[15605]: [2023-12-19 16:28:46 +0000] [15606] [INFO] Worker exiting (pid: 15606)
+dez 19 13:28:46 vm-qa-web gunicorn[15605]: [2023-12-19 16:28:46 +0000] [15608] [INFO] Worker exiting (pid: 15608)
+dez 19 13:28:46 vm-qa-web gunicorn[15605]: [2023-12-19 16:28:46 +0000] [15607] [INFO] Worker exiting (pid: 15607)
+dez 19 13:28:46 vm-qa-web gunicorn[15605]: [2023-12-19 13:28:46 -0300] [15605] [INFO] Shutting down: Master
+dez 19 13:28:46 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:28:46 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:28:46 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:28:46 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:46 -0300] [15887] [INFO] Starting gunicorn 21.2.0
+dez 19 13:28:46 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:46 -0300] [15887] [INFO] Listening at: http://127.0.0.1:8000 (15887)
+dez 19 13:28:46 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:46 -0300] [15887] [INFO] Using worker: sync
+dez 19 13:28:46 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:46 -0300] [15888] [INFO] Booting worker with pid: 15888
+dez 19 13:28:46 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:46 -0300] [15889] [INFO] Booting worker with pid: 15889
+dez 19 13:28:46 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:46 -0300] [15890] [INFO] Booting worker with pid: 15890
+dez 19 13:28:48 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:28:48 vm-qa-web gunicorn[15887]: [2023-12-19 16:28:48 +0000] [15888] [INFO] Worker exiting (pid: 15888)
+dez 19 13:28:48 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:48 -0300] [15887] [INFO] Handling signal: term
+dez 19 13:28:48 vm-qa-web gunicorn[15887]: [2023-12-19 16:28:48 +0000] [15889] [INFO] Worker exiting (pid: 15889)
+dez 19 13:28:48 vm-qa-web gunicorn[15887]: [2023-12-19 16:28:48 +0000] [15890] [INFO] Worker exiting (pid: 15890)
+dez 19 13:28:48 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:48 -0300] [15887] [ERROR] Worker (pid:15888) was sent SIGTERM!
+dez 19 13:28:48 vm-qa-web gunicorn[15887]: [2023-12-19 13:28:48 -0300] [15887] [INFO] Shutting down: Master
+dez 19 13:28:48 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:28:48 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:28:48 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:28:48 vm-qa-web gunicorn[15893]: [2023-12-19 13:28:48 -0300] [15893] [INFO] Starting gunicorn 21.2.0
+dez 19 13:28:48 vm-qa-web gunicorn[15893]: [2023-12-19 13:28:48 -0300] [15893] [INFO] Listening at: http://127.0.0.1:8000 (15893)
+dez 19 13:28:48 vm-qa-web gunicorn[15893]: [2023-12-19 13:28:48 -0300] [15893] [INFO] Using worker: sync
+dez 19 13:28:48 vm-qa-web gunicorn[15893]: [2023-12-19 13:28:48 -0300] [15894] [INFO] Booting worker with pid: 15894
+dez 19 13:28:48 vm-qa-web gunicorn[15893]: [2023-12-19 13:28:48 -0300] [15895] [INFO] Booting worker with pid: 15895
+dez 19 13:28:48 vm-qa-web gunicorn[15893]: [2023-12-19 13:28:48 -0300] [15896] [INFO] Booting worker with pid: 15896
+dez 19 13:35:02 vm-qa-web systemd[1]: Stopping Gunicorn daemon for Django project...
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 13:35:02 -0300] [15893] [INFO] Handling signal: term
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 16:35:02 +0000] [15896] [INFO] Worker exiting (pid: 15896)
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 16:35:02 +0000] [15895] [INFO] Worker exiting (pid: 15895)
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 16:35:02 +0000] [15894] [INFO] Worker exiting (pid: 15894)
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 13:35:02 -0300] [15893] [ERROR] Worker (pid:15894) was sent SIGTERM!
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 13:35:02 -0300] [15893] [ERROR] Worker (pid:15895) was sent SIGTERM!
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 13:35:02 -0300] [15893] [ERROR] Worker (pid:15896) was sent SIGTERM!
+dez 19 13:35:02 vm-qa-web gunicorn[15893]: [2023-12-19 13:35:02 -0300] [15893] [INFO] Shutting down: Master
+dez 19 13:35:02 vm-qa-web systemd[1]: gunicorn.service: Succeeded.
+dez 19 13:35:02 vm-qa-web systemd[1]: Stopped Gunicorn daemon for Django project.
+dez 19 13:35:02 vm-qa-web systemd[1]: Started Gunicorn daemon for Django project.
+dez 19 13:35:02 vm-qa-web gunicorn[16021]: [2023-12-19 13:35:02 -0300] [16021] [INFO] Starting gunicorn 21.2.0
+dez 19 13:35:02 vm-qa-web gunicorn[16021]: [2023-12-19 13:35:02 -0300] [16021] [INFO] Listening at: http://127.0.0.1:8000 (16021)
+dez 19 13:35:02 vm-qa-web gunicorn[16021]: [2023-12-19 13:35:02 -0300] [16021] [INFO] Using worker: sync
+dez 19 13:35:02 vm-qa-web gunicorn[16021]: [2023-12-19 13:35:02 -0300] [16023] [INFO] Booting worker with pid: 16023
+dez 19 13:35:02 vm-qa-web gunicorn[16021]: [2023-12-19 13:35:02 -0300] [16024] [INFO] Booting worker with pid: 16024
+dez 19 13:35:02 vm-qa-web gunicorn[16021]: [2023-12-19 13:35:02 -0300] [16025] [INFO] Booting worker with pid: 16025

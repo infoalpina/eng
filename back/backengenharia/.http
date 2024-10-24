@@ -1,0 +1,6 @@
+GET http://localhost:8000/calculoFCA/Read/
+Content-Type: application/json
+
+{
+    "key": "value"
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "Dados do cliente": {
+      "Cliente": "fulano",
+      "Data": "15/03/5249"
+    },
+    "Dados do Projeto": {
+      "Carga térmica": "1000 kW",
+      "Liquido a resfriar": "200 m³/h",
+      "Vazão total (Circ. fechado)": "60°C",
+      "Temperatura de água quente (Circ. fechado)": "25°C",
+      "Temperatura de água fria (Circ. fechado)": "25°C",
+      "Temperatura de bulbo úmido": "22°C",
+      "Pressão atmosférica": "300 metros",
+      "Nível de ruído": "75 dB",
+      "Entrada de ar":"102"
+    },
+    "Informações da seleção": {
+      "Selecao": "1",
+      "Modelo FCA": "8/1"
+    },
+    "Dados da seleção": {
+      "Tiragem doar tipo": "950 kW",
+      "Número de células / resfriador": "190 m³/h",
+      "Trocador de calor tipo feixe tubular": "58°C",
+      "Ventilador modelo": "26°C",
+      "Diametro do ventilador": "23°C",
+      "Transmissão tipo": "310 metros",
+      "Potência nominal por ventilador": "72 dB",
+      "Potência consumida por ventilador": "950 kW",
+      "Rotação": "190 m³/h",
+      "Velocidade periférica": "58°C",
+      "Motor elétrico tipo": "26°C",
+      "Perda de água (evaporação + arraste)": "23°C",
+      "Perda de carga no feixe": "310 metros",
+      "Pressão maxima no feixe": "72 dB",
+      "Bomba circuito secundario": "58°C",
+      "Vazão da bomba": "26°C",
+      "Pressão da bomba": "23°C",
+      "Potência nominal da bomba": "310 metros",
+      "Rotação da bomba": "72 dB"
+    },
+    "Materiais de construção": {
+      "Carca": "Aço Carbono",
+      "Bacia coletora da água": "Painéis de Fibra de Vidro",
+      "Feixe tubular": "Concreto Armado",
+      "Cavalete de apoio do feixe": "PVC",
+      "Eliminadores de gotas": "Polipropileno",
+      "Sistema de distribuição de água": "Tubos de PVC",
+      "Ventilador": "Alumínio"
+    },
+    "Normas":{
+      "ESPECIFICACOES E DIMENSOES CONFORME": "59.00.09.83"
+    }
+  }
+]

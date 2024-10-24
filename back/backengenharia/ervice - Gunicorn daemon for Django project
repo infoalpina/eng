@@ -1,0 +1,22 @@
+[0;1;32m●[0m gunicorn.service - Gunicorn daemon for Django project
+   Loaded: loaded (/etc/systemd/system/gunicorn.service; enabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Tue 2023-12-19 15:32:00 -03; 7min ago
+ Main PID: 18894 (gunicorn)
+    Tasks: 4 (limit: 3442)
+   Memory: 97.0M
+   CGroup: /system.slice/gunicorn.service
+           ├─18894 /usr/bin/python3 /usr/local/bin/gunicorn backengenharia.wsgi:application --workers 3
+           ├─18895 /usr/bin/python3 /usr/local/bin/gunicorn backengenharia.wsgi:application --workers 3
+           ├─18896 /usr/bin/python3 /usr/local/bin/gunicorn backengenharia.wsgi:application --workers 3
+           └─18897 /usr/bin/python3 /usr/local/bin/gunicorn backengenharia.wsgi:application --workers 3
+
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:   File "/usr/local/lib/python3.12/site-packages/django/utils/deprecation.py", line 133, in __call__
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:     response = self.process_request(request)
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:   File "/usr/local/lib/python3.12/site-packages/django/middleware/common.py", line 48, in process_request
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:     host = request.get_host()
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:            ^^^^^^^^^^^^^^^^^^
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:   File "/usr/local/lib/python3.12/site-packages/django/http/request.py", line 151, in get_host
+dez 19 15:39:17 vm-qa-web gunicorn[18894]:     raise DisallowedHost(msg)
+dez 19 15:39:17 vm-qa-web gunicorn[18894]: django.core.exceptions.DisallowedHost: Invalid HTTP_HOST header: '127.0.0.1:8000'. You may need to add '127.0.0.1' to ALLOWED_HOSTS.
+dez 19 15:39:17 vm-qa-web gunicorn[18894]: Bad Request: /

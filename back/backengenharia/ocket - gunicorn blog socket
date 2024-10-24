@@ -1,0 +1,21 @@
+[0;1;32m●[0m gunicorn_fca.service - gunicorn blog daemon
+   Loaded: loaded (/etc/systemd/system/gunicorn_fca.service; disabled; vendor preset: enabled)
+   Active: [0;1;32mactive (running)[0m since Wed 2023-12-20 08:43:19 -03; 31min ago
+ Main PID: 38607 (gunicorn)
+    Tasks: 4 (limit: 3442)
+   Memory: 91.6M
+   CGroup: /system.slice/gunicorn_fca.service
+           ├─38607 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 --bind unix:/run/gunicorn_fca.sock backengenharia.wsgi:application
+           ├─38608 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 --bind unix:/run/gunicorn_fca.sock backengenharia.wsgi:application
+           ├─38609 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 --bind unix:/run/gunicorn_fca.sock backengenharia.wsgi:application
+           └─38610 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/python3 /var/www/html/sistemaengenharia/back/backengenharia/venv/bin/gunicorn --workers 3 --bind unix:/run/gunicorn_fca.sock backengenharia.wsgi:application
+
+dez 20 08:43:19 vm-qa-web systemd[1]: Started gunicorn blog daemon.
+dez 20 08:43:20 vm-qa-web gunicorn[38607]: [2023-12-20 08:43:20 -0300] [38607] [INFO] Starting gunicorn 21.2.0
+dez 20 08:43:20 vm-qa-web gunicorn[38607]: [2023-12-20 08:43:20 -0300] [38607] [INFO] Listening at: unix:/run/gunicorn_fca.sock (38607)
+dez 20 08:43:20 vm-qa-web gunicorn[38607]: [2023-12-20 08:43:20 -0300] [38607] [INFO] Using worker: sync
+dez 20 08:43:20 vm-qa-web gunicorn[38607]: [2023-12-20 08:43:20 -0300] [38608] [INFO] Booting worker with pid: 38608
+dez 20 08:43:20 vm-qa-web gunicorn[38607]: [2023-12-20 08:43:20 -0300] [38609] [INFO] Booting worker with pid: 38609
+dez 20 08:43:20 vm-qa-web gunicorn[38607]: [2023-12-20 08:43:20 -0300] [38610] [INFO] Booting worker with pid: 38610
+dez 20 08:58:22 vm-qa-web gunicorn[38607]: Not Found: /backengenharia//calculoFCA/
+dez 20 08:58:30 vm-qa-web gunicorn[38607]: Not Found: /backengenharia//calculoFCA/
