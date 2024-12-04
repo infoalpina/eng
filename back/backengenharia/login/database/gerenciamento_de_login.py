@@ -21,7 +21,7 @@ def login(dados):
         setsenha_hashed = data_users[0]['Senha']
         setacessoEngenhariaComum = data_users[0]['EngenhariaComumEngenharia']
         setacessoEngenhariaCompleto = data_users[0]['Engenhariaengenharia']
-        recaptchaSecretKey = '6LeD-McpAAAAAKcjy3rvEMLCEYSuk3lrGjm1zjHA'
+        recaptchaSecretKey = '6LfyLccpAAAAABmE20NgC6RrfkGlM2I0n3Oa0_UU'
         url = 'https://www.google.com/recaptcha/api/siteverify'
         data = {
             'secret': recaptchaSecretKey,
@@ -29,12 +29,12 @@ def login(dados):
         }
 
         recaptcha_verify_response = requests.post(url, data=data)
-        # if not recaptcha_verify_response.json()['success']:
-        #    return JsonResponse({
-        #        'usuario': '',
-        #        'acesso': '',
-        #        'chave': '',
-        #    })
+        if not recaptcha_verify_response.json()['success']:
+           return JsonResponse({
+               'usuario': '',
+               'acesso': '',
+               'chave': '',
+           })
 
         if setacessoEngenhariaCompleto:
             setacesso = setacessoEngenhariaCompleto

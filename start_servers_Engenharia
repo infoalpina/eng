@@ -1,24 +1,34 @@
 #!/bin/bash
 
-# Iniciar o servidor frontend
-cd /var/www/html/eng/engenharia/frontc
+# Diretório de logs
+LOG_DIR="/var/www/html/eng/engenharia/logs"
+mkdir -p "$LOG_DIR"
 
-nohup sh -c 'HOST=10.0.0.183 PORT=5175 npm run frontend' > /dev/null 2>&1 &
+# Iniciar o servidor frontend e direcionar logs
+cd /var/www/html/engenharia/engenharia/frontc
+nohup sh -c 'HOST=alpinacloud.com.br PORT=5175 npm run frontend' > "$LOG_DIR/frontend.log" 2>&1 &
+
+echo "Servidor frontend iniciado, logs em $LOG_DIR/frontend.log"
 
 # Aguardar alguns segundos para o servidor frontend iniciar completamente
 sleep 5
 
-# Iniciar o servidor backend com Gunicorn sem gerar logs
-cd /var/www/html/eng/engenharia/back/backengenharia
+# Iniciar o servidor Celery e direcionar logs
+cd /var/www/html/engenharia/engenharia/back/backengenharia
+source venv/bin/activate
 
-# Aguardar alguns segundos para o servidor backend iniciar completamente
+nohup celery -A backengenharia worker -l info > "$LOG_DIR/celery.log" 2>&1 &
+echo "Servidor Celery iniciado, logs em $LOG_DIR/celery.log"
+
+
+
+
+# Aguardar alguns segundos para o Celery iniciar completamente
 sleep 5
 
-nohup celery -A backengenharia worker -l info > /dev/null 2>&1 &
+# Iniciar o servidor backend com Gunicorn e direcionar logs
+nohup python3 -m gunicorn backengenharia.wsgi:application --bind alpinacloud.com.br:8007 --workers 3 > "$LOG_DIR/backend.log" 2>&1 &
 
-# Aguardar alguns segundos para o servidor backend iniciar completamente
-sleep 5
+echo "Servidor backend (Gunicorn) iniciado, logs em $LOG_DIR/backend.log"
 
-nohup python3 -m gunicorn backengenharia.wsgi:application --bind 10.0.0.183:8001 --workers 3 > /dev/null 2>&1 &
-
-echo "Servidores frontend e backend iniciados com sucesso."
+echo "Todos os servidores foram iniciados com sucesso. Verifique os logs em $LOG_DIR"

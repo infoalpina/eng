@@ -16,8 +16,7 @@ export const UserProvider = ({ children }) => {
   const [ventiladores, setVentiladores] = useState('')
   const [experiation, setExperiation] = useState('')
   //const [dominio, setDominio] = useState('http://localhost:8000/')
-  const [dominio, setDominio] = useState('http://10.0.0.183:8001/')
-
+  const [dominio, setDominio] = useState('http://alpinacloud.com.br:8007/')
   const [Status, setStatus] = useState('')
   const [nomedoprojeto, setnomedoprojeto] = useState('')
   const [cliente, setcliente] = useState('')

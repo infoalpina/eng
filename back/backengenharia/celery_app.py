@@ -2,13 +2,16 @@ from __future__ import absolute_import, unicode_literals
 import os
 from celery import Celery
 
-# Define o mÃ³dulo de configuraÃ§Ãµes do Django
+# Define o módulo de configurações do Django
 os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'backengenharia.settings')
 
-# Cria a instÃ¢ncia do Celery
+# Cria a instância do Celery
 app = Celery('backengenharia')
 
-# Carrega configuraÃ§Ãµes do Django
+# Define a URL do broker Redis
+app.conf.broker_url = 'redis://162.240.102.146:6379/0'  # Atualizado para o novo IP do Redis
+
+# Carrega configurações do Django
 app.config_from_object('django.conf:settings', namespace='CELERY')
 
 # Descobre tarefas automaticamente

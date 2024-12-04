@@ -4,7 +4,7 @@ NAME="backengenharia"                               # Nome do projeto Django
 DJANGODIR=/var/www/html/sistemaengenharia/back/backengenharia             # Diretório do seu projeto Django
 SOCKFILE=/var/www/html/sistemaengenharia/back/backengenharia/gunicorn.sock  # Usaremos um socket Unix para comunicação
 
-USER=projetosti                                       # O nome do usuário para executar as aplicações gunicorn
+USER=projetosti                                      # O nome do usuário para executar as aplicações gunicorn
 GROUP=projetosti                                      # O nome do grupo para executar as aplicações gunicorn
 NUM_WORKERS=3                                        # Quantidade de processos de trabalhadores Gunicorn para iniciar
 

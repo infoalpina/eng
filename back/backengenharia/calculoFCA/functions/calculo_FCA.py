@@ -381,7 +381,7 @@ def calculo_FCA(dados, datas, fca, numero_tubos, valorSelectCalorEspecifico, tol
                                             vazao_massica_de_ar_por_torre = M/n_de_corpos_e_11
                                             vazao_volumetrica_de_ar_por_torre = V8/n_de_corpos_e_11
 
-                                            url = "http://10.0.0.183:8001/backengenharia/calculoVentiladores/CalcularVentiladores2/"
+                                            url = "http://alpinacloud.com.br:8007/backengenharia/calculoVentiladores/CalcularVentiladores2/"
 
                                             calculoVentil = {
                                                 "dados": dados,
@@ -662,7 +662,7 @@ def calculo_FCA(dados, datas, fca, numero_tubos, valorSelectCalorEspecifico, tol
                                                 vazao_massica_de_ar_por_torre = M/n_de_corpos_e_11
                                                 vazao_volumetrica_de_ar_por_torre = V8/n_de_corpos_e_11
 
-                                                url = "http://10.0.0.183:8001/backengenharia/calculoVentiladores/CalcularVentiladores2/"
+                                                url = "http://alpinacloud.com.br:8007/backengenharia/calculoVentiladores/CalcularVentiladores2/"
 
                                                 calculoVentil = {
                                                     "dados": dados,

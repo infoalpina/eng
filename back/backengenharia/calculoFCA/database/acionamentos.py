@@ -110,8 +110,7 @@ def selectUpdateAcionamentos(dados, id):
                     status=True
                 )
         except Acionamento.DoesNotExist:
-            print(f"Acionamento com ID {
-                  acionamentoDados.get('id')} não encontrado.")
+            print("Acionamento nao encontrado.")
         except Exception as e:
             print(f"Erro ao processar o acionamento: {e}")
 

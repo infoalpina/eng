@@ -148,8 +148,7 @@ def selectUpdateFeixes(dados, id):
                 )
 
         except Feixes.DoesNotExist:
-            print(f"Acionamento com ID {SpecificFeixes.get(
-                'id', 'desconhecido')} não encontrado.")
+            print(f"Acionamento com ID nao encontrado.")
         except Exception as e:
             print(f"Erro ao processar o acionamento: {e}")
 

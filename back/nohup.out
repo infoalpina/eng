@@ -1,3 +1,2 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:ce6f492c868c3bb2cf868c4dff6d46d8f9e8e43f8673fa3235a08b329b5a27d3
-size 250
+python: can't open file '/var/www/html/eng/engenharia/sistemaengenharia/back/manage.py': [Errno 2] No such file or directory
+python: can't open file '/var/www/html/eng/engenharia/sistemaengenharia/back/manage.py': [Errno 2] No such file or directory

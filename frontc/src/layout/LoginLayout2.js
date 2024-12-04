@@ -95,7 +95,7 @@ function LoginLayout() {
           <CRow>
             <CCol>
               <ReCAPTCHA
-                sitekey="6LeD-McpAAAAAAOg_X4GkI5-R0jE8cWECaI3HgAj"
+                sitekey="6LfyLccpAAAAANyipAsBoNUzKonrlySyj0JNVcD0"
                 onChange={onChangeCaptcha}
               />
             </CCol>

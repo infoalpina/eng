@@ -160,7 +160,7 @@ const ResultadosFCA = () => {
             const response = await enviarDadosParaBackend(rota, resultado)
             analyzing = !response.Analyzingbool
             console.log('response', response)
-            await sleep(2000)
+            await sleep(10)
 
             if (
               (response.result !== undefined && response.result !== null) ||

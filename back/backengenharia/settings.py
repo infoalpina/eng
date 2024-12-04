@@ -15,7 +15,6 @@ from pathlib import Path
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
@@ -25,15 +24,17 @@ SECRET_KEY = 'django-insecure-kg95&m2uigxiw2q*fddo6!f9ila9a(@%7)63^^=3v(2$&#zazg
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# settings.py
-
 ALLOWED_HOSTS = ['*']
+# ALLOWED_HOSTS = ['10.0.0.183', 'localhost', '162.240.102.146', 'alpinacloud.com.br']
 
-# ALLOWED_HOSTS = ['10.0.0.183','localhost', '10.0.0.183/backengenharia']
-
+# Configura��es do Celery
+CELERY_BROKER_URL = 'redis://162.240.102.146:6379/1'
+CELERY_RESULT_BACKEND = 'redis://162.240.102.146:6379/1'
+CELERY_ACCEPT_CONTENT = ['json']
+CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
 
 # Application definition
-
 INSTALLED_APPS = [
     'login',
     'calculoSelecao',
@@ -48,6 +49,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
 JUPYTER_NOTEBOOK_ARGUMENTS = [
     '--ip', '0.0.0.0',
     '--port', '8888',
@@ -56,11 +58,12 @@ JUPYTER_NOTEBOOK_ARGUMENTS = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Adicione a origem do seu frontend
-    "http://10.0.0.183:5175"
-    # Adicione outras origens conforme necessário
+    "http://localhost:3000",
+    "http://127.0.0.1:3000",
+    "http://10.0.0.183:5175",
+    "http://162.240.102.146:5175",
+    "http://alpinacloud.com.br:5175",
 ]
-
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
@@ -85,10 +88,9 @@ LOGGING = {
     },
     'root': {
         'handlers': ['console'],
-        'level': 'DEBUG',  # Ajuste o nível conforme necessário
+        'level': 'DEBUG',  # Ajuste o n�vel conforme necess�rio
     },
 }
-
 
 TEMPLATES = [
     {
@@ -106,14 +108,7 @@ TEMPLATES = [
     },
 ]
 
-CORS_ALLOWED_ORIGINS = [
-    "http://localhost:3000",  # Substitua pelo domínio do seu frontend
-    "http://127.0.0.1:3000",
-    "http://10.0.0.183:5175"
-]
-
 WSGI_APPLICATION = 'backengenharia.wsgi.application'
-
 
 # Database
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
@@ -123,16 +118,16 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'sistemaDaEngenharia',
         'USER': 'denunciaDB',
-        'PASSWORD': '18122001',
-        'HOST': '10.0.0.183',
+        'PASSWORD': '@Nuyt08LP',
+        'HOST': '162.240.102.146',
         'PORT': '3306',
     },
     'ControlAccessExtern': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'ControlAccesExtern',
         'USER': 'denunciaDB',
-        'PASSWORD': '18122001',
-        'HOST': '10.0.0.183',
+        'PASSWORD': '@Nuyt08LP',
+        'HOST': '162.240.102.146',
         'PORT': '3306',
     },
 }
@@ -156,18 +151,13 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-
 # Internationalization
 # https://docs.djangoproject.com/en/4.2/topics/i18n/
 
 LANGUAGE_CODE = 'en-us'
-
 TIME_ZONE = 'UTC'
-
 USE_I18N = True
-
 USE_TZ = True
-
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
